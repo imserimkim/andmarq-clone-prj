@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artist - 앤드마크 | ANDMARQ</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/02.subpage/02.subpage.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script defer src="./index.js"></script>
+    
+
+</head>
+<body>
+    
+
+
+    <!-----------------------------------------------  section  -------------------------------------------------------> 
+
+    <section>
+        <ul class="artist-image">
+            <!-- <li>
+                <a href="#">
+                <div class="img-container01">
+                    <img src="./images/artist/sub/01.jpg" alt="">
+                    <h2>BAEK JIN HEE</h2>
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                <div class="img-container02">
+                    <img src="./images/artist/sub/02.jpg" alt="">
+                    <h2>CHA EU GENE</h2>
+                </div>
+            </a>
+            </li>
+            <li>
+                <a href="#">
+                <div class="img-container03">
+                    <img src="./images/artist/sub/03.jpg" alt="">
+                    <h2>CHOI JUN YOUNG</h2>
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                <div class="img-container04">
+                    <img src="./images/artist/sub/04.jpg" alt="">
+                    <h2>HAN JA I</h2>
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                <div class="img-container05">
+                    <img src="./images/artist/sub/05.jpg" alt="">
+                    <h2>JANG YOUNG NAM</h2>
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                <div class="img-container06">
+                    <img src="./images/artist/sub/06.jpg" alt="">
+                    <h2>JEONG DONG HUN</h2>
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                <div class="img-container07">
+                    <img src="./images/artist/sub/07.jpg" alt="">
+                    <h2>JOO SE BIN</h2>
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                <div class="img-container08">
+                    <img src="./images/artist/sub/08.jpg" alt="">
+                    <h2>JUSTIN JOHN HARVEY</h2>
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                <div class="img-container09">
+                    <img src="./images/artist/sub/09.jpg" alt="">
+                    <h2>KIM A HYUN</h2>
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                <div class="img-container10">
+                    <img src="./images/artist/sub/10.jpg" alt="">
+                    <h2>KIM HYE JUN</h2>
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                <div class="img-container11">
+                    <img src="./images/artist/sub/11.jpg" alt="">
+                    <h2>KIM YEON SOO</h2>
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                <div class="img-container12">
+                    <img src="./images/artist/sub/12.jpg" alt="">
+                    <h2>KIM YE WON</h2>
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                <div class="img-container13">
+                    <img src="./images/artist/sub/13.jpg" alt="">
+                    <h2>LEE JOO BEEN</h2>
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                <div class="img-container14">
+                    <img src="./images/artist/sub/14.jpg" alt="">
+                    <h2>PARK JIN JOO</h2>
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                <div class="img-container15">
+                    <img src="./images/artist/sub/15.jpg" alt="">
+                    <h2>SHIN SI A</h2>
+                </div>
+                </a>
+            </li> -->
+        </ul>
+    </section>
+
+
+    <!---------------------------------------  footer  -----------------------------------------------> 
+
+
+    <!-- function shuffle(array) {
+        array.sort(() => Math.random() - 0.5);
+      }
+      
+      const numbers = [1, 2, 3];
+      shuffle(numbers); -->
+
+
+    <script>
+        let images = ''; 
+
+        let data=[
+            {url:'./images/artist/sub/01.jpg',title:'BAEK JIN HEE',detail:'#'},
+            {url:'./images/artist/sub/02.jpg',title:'CHA EU GENE',detail:'#'},
+            {url:'./images/artist/sub/03.jpg',title:'CHOI JUN YOUNG',detail:'#'},
+            {url:'./images/artist/sub/04.jpg',title:'HAN JA I',detail:'#'},
+            {url:'./images/artist/sub/05.jpg',title:'JANG YOUNG NAM',detail:'#'},
+            {url:'./images/artist/sub/06.jpg',title:'JEONG DONG HUN',detail:'#'},
+            {url:'./images/artist/sub/07.jpg',title:'JOO SE BIN',detail:'#'},
+            {url:'./images/artist/sub/08.jpg',title:'JUSTIN JOHN HARVEY',detail:'#'},
+            {url:'./images/artist/sub/09.jpg',title:'KIM A HYUN',detail:'#'},
+            {url:'./images/artist/sub/10.jpg',title:'KIM HYE JUN',detail:'#'},
+            {url:'./images/artist/sub/11.jpg',title:'KIM YEON SOO',detail:'#'},
+            {url:'./images/artist/sub/12.jpg',title:'KIM YE WON',detail:'#'},
+            {url:'./images/artist/sub/13.jpg',title:'LEE JOO BEEN',detail:'#'},
+            {url:'./images/artist/sub/14.jpg',title:'PARK JIN JOO',detail:'#'},
+            {url:'./images/artist/sub/15.jpg',title:'SHIN SI A',detail:'#'}
+        ]
+        
+        function shuffle(array) {
+        array.sort(() => Math.random() - 0.5);
+      }
+      
+      
+      shuffle(data);
+
+      console.log(data)
+      const uls = document.querySelector('.artist-image')
+    
+
+      function init (){
+        for(let i=0;i<data.length;i++){
+        uls.innerHTML += `<li>
+                            <a href="${data[i].detail}">
+                            <div class="img-container01">
+                                <img src="${data[i].url}" alt="">
+                                <h2>${data[i].title}</h2>
+                            </div>
+                            </a>
+                        </li>`;
+        //console.log(uls)
+        //  console.log(div)
+       
+                    }
+    
+      }
+      init()
+
+      
+
+        // for(var i=0; i<15; i++){
+        //     randomImg = Math.ceil(Math.random()*15); 
+        //     randomImg = ('00'+randomImg).slice(-2);
+        //     images +=  ` <div class="img-container${randomImg}">
+        //             <img src="./images/artist/sub/15.jpg" alt="">
+        //             <h2>SHIN SI A</h2>
+        //         </div>`;
+        // }
+
+        // const CONTENT = document.querySelector('.artist-image');
+        // CONTENT.innerHTML = images;
+    </script>
+
+</body>
+</html>

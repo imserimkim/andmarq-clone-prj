@@ -1,0 +1,13 @@
+.artist-bg {
+  background-image: url("../images/01.jpg");
+}
+
+.artist-content {
+  display: none;
+}
+.artist-content .artist-concept {
+  display: none;
+}
+.artist-content .biography {
+  display: none;
+}/*# sourceMappingURL=baekjinhee.css.map */

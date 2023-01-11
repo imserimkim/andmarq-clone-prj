@@ -1,0 +1,96 @@
+{
+    "artist":[
+        {
+            "id":"0",
+            "name":"BAEK JIN HEE",
+            "url":"../images/artist/sub/01.jpg",
+            "detail":"#"
+        },
+        {
+            "id":"1",
+            "name":"CHA EU GENE",
+            "url":"../images/artist/sub/02.jpg",
+            "detail":"#"
+        },
+        {
+            "id":"2",
+            "name":"CHOI JUN YOUNG",
+            "url":"../images/artist/sub/03.jpg",
+            "detail":"#"
+        },
+        {
+            "id":"3",
+            "name":"HAN JA I",
+            "url":"../images/artist/sub/04.jpg",
+            "detail":"#"
+        },
+        {
+            "id":"4",
+            "name":"JANG YOUNG NAM",
+            "url":"../images/artist/sub/05.jpg",
+            "detail":"#"
+        },
+        {
+            "id":"5",
+            "name":"JEONG DONG HUN",
+            "url":"../images/artist/sub/06.jpg",
+            "detail":"#"
+        },
+        {
+            "id":"6",
+            "name":"JOO SE BIN",
+            "url":"../images/artist/sub/07.jpg",
+            "detail":"#"
+        },
+        {
+            "id":"7",
+            "name":"JUSTIN JOHN HARVEY",
+            "url":"../images/artist/sub/08.jpg",
+            "detail":"#"
+        },
+        {
+            "id":"8",
+            "name":"KIM A HYUN",
+            "url":"../images/artist/sub/09.jpg",
+            "detail":"#"
+        },
+        {
+            "id":"9",
+            "name":"KIM HYE JUN",
+            "url":"../images/artist/sub/10.jpg",
+            "detail":"#"
+        },
+        {
+            "id":"10",
+            "name":"KIM YEON SOO",
+            "url":"../images/artist/sub/11.jpg",
+            "detail":"#"
+        },
+        {
+            "id":"11",
+            "name":"KIM YE WON",
+            "url":"../images/artist/sub/12.jpg",
+            "detail":"#"
+        },
+        {
+            "id":"12",
+            "name":"LEE JOO BEEN",
+            "url":"../images/artist/sub/13.jpg",
+            "detail":"#"
+        },
+        {
+            "id":"13",
+            "name":"PARK JIN JOO",
+            "url":"../images/artist/sub/14.jpg",
+            "detail":"#"
+        },
+        {
+            "id":"14",
+            "name":"SHIN SI A",
+            "url":"../images/artist/sub/15.jpg",
+            "detail":"#"
+        }
+        
+
+    ]
+}
